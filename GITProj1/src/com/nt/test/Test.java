@@ -1,10 +1,12 @@
 package com.nt.test;
 
+import com.nt.beans.RealTimeDBTest;
+
 public class Test {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		RealTimeDBTest t= new RealTimeDBTest();
+		System.out.println(t.getClass().getName());
 	}
 
 }
