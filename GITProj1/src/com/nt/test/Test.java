@@ -13,5 +13,8 @@ public class Test {
 		System.out.println("Ram is coming");
 
 	}
-
+	
+	public void m3() {
+		System.out.println("m3-()");
+	}
 }
