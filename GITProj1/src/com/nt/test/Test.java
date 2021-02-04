@@ -8,5 +8,8 @@ public class Test {
 		RealTimeDBTest t= new RealTimeDBTest();
 		System.out.println(t.getClass().getName());
 	}
+	public void m1() {
+		System.out.println("m2(-) is created...123");
+	}
 
 }
